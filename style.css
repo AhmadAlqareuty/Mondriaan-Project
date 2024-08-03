@@ -1,0 +1,178 @@
+body{
+            
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./assets/images/backgrond.jpg);
+
+}
+.text1{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.text2{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.container{
+    border: 6px #000 solid;
+    display: grid;
+    width: 516px;
+    height: 296px;
+    background-color: #232629;
+    gap: 4px;
+    grid-template-columns:36px 16px 40px 30px 30px 40px 40px 40px 40px 26px 26px 40px 20px 40px;
+    grid-template-rows:repeat(10,26px);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.white{
+    background-color: #F0F1EC;
+}
+.yellow{
+    background-color: #F9D01E;
+}
+.blue{
+    background-color:#004592;
+}
+.red{
+    background-color:#E72F24;
+}
+.black{
+    background-color: #000;
+}
+.w1{
+    grid-column: span 2;
+}
+.w2{
+    grid-column: span 3;
+}
+.y1{
+    grid-column: span 2;
+}
+.b1{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.w3{
+    grid-column: span 3;
+}
+.w4{
+    grid-area: 2/1/4/2;
+}
+.r1{
+    grid-area: 2/2/6/6;
+}
+.y3{
+    grid-area: 2/6/4/8;
+}
+.r2{
+    grid-area: 3/8/5/10;
+}
+.y4{
+    grid-area: 2/10/3/12;
+}
+.k2{
+    grid-area: 3/10/4/12;
+}
+.w5{
+    grid-area: 2/12/4/14;
+}
+.y5{
+    grid-area: 2/14/5/15;
+}
+.w6{
+    grid-area: 4/1/7/2;
+}
+.k3{
+    grid-area: 6/2/8/4;
+}
+.w7{
+    grid-area: 6/4/7/6;
+}
+.w8{
+    grid-area:7/4/8/6 ;
+}
+.w9{
+    grid-row: span 2;
+}
+.w10{
+    grid-row: span 2;
+}
+.w11{
+    grid-column:span 2;
+}
+.k4{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.w12{
+    grid-column: span 2;
+}
+.w13{
+    grid-column: span 2;
+}
+.w14{
+    grid-row: span 3;
+}
+.w15{
+    grid-column: span 2;
+}
+.w16{
+    grid-row: span 2;
+}
+.w17{
+    grid-row: span 2;
+}
+.b2{
+    grid-row: span 4;
+    grid-column: span 4;
+}
+.y6{
+    grid-row: span 3;  
+}
+.b3{
+    grid-row: span 2;
+    grid-column: span 2; 
+}
+.w18{
+    grid-row: span 2;
+    grid-column: span 2; 
+}
+.k5{
+    grid-column: span 2; 
+}
+.y7{
+    grid-row: span 2;
+    grid-column: span 2; 
+}
+.w19{
+    grid-row: span 2;
+}
+.y8{
+    grid-row: span 2;
+}
+.w20{
+    grid-row: span 2;
+}
+.r3{
+    grid-row: span 2;
+    grid-column: span 2; 
+}
+.w21{
+    grid-column: span 3;
+}
+.w23{
+    grid-column: span 3;
+}
+.w24{
+    grid-column: span 2;
+}
